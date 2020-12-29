@@ -1,0 +1,369 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Administration | Corning-Painted Post High School</title>
+<link rel="icon" href="https://www.logolynx.com/images/logolynx/c5/c5194551dc69eb83c28173de95404ac1.png">
+<style>
+	
+	h2 {font-size:32px}
+	h3 {font-size:24px}
+	h4 {font-size:16px}
+	
+.sidebar {
+  height: 100%;
+  width: 85px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #151515;
+  transition: width 0.5s;
+  overflow-x: hidden;
+  padding-top: 150px;
+  white-space: nowrap;
+  box-shadow: 8px 0px 14px 0 grey;
+}
+
+.sidebar a{
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: color 0.5s;
+}
+
+.sidebar a:hover {
+  color: #f1f1f1;
+}
+
+#main .sidebar {
+  position: absolute;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.material-icons,
+.icon-text {
+  vertical-align: middle;
+}
+
+.material-icons {
+  padding-bottom: 3px;
+  margin-right: 30px;
+}
+
+#main {
+  position:absolute;
+ 
+  margin-left: 85px;
+  right:0px;
+  top: 120px;
+  transition: margin-left 0.5s;
+  left:0px;
+  color:#151515;
+	}
+	#content{padding:20px 20px 100px 20px}
+
+	#content a{font-weight:bold;text-decoration:none}
+	#content a:hover{text-decoration:underline}
+	
+
+	
+
+#banner {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    left: 0px;
+    margin-left: 85px;
+    transition: margin-left 0.5s;
+    height: 120px;
+    background-color: #E5D187;
+    background-image: linear-gradient(#E5D187,#97802E);
+	line-height:120px;
+	text-align: center;
+	font-size:70px;
+	color:white;
+	font-weight:600;
+	}
+	
+	
+#current-page {
+  background-color:#818181;
+  border-radius:10px;
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #151515;
+  display: block;
+}
+	#cpp-logo {
+		border:white solid 4px;
+		border-radius:5px;
+		position:absolute;
+		left:10px;
+		height:60px;
+		display:inline-block;
+		bottom:5px
+			
+	}
+	
+#columns {columns:auto 2}
+
+	
+#footer {
+    position: absolute;
+    height: 80px;
+    left:0px;
+	right:0px;
+	bottom:0px;
+	background-color:#818181;
+	text-align:center;
+	line-height:40px;
+	color: white;
+	transition: margin-left 0.5s;
+
+}
+	
+.fa {
+
+  padding: 5px;
+  border-radius:5px;
+  font-size:18px;
+  width: 16px;
+  margin: 0px 4px;
+  text-align: center;
+  text-decoration: none;
+}
+
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+	}
+	
+	.fa-twitter {
+  background: #55ACEE;
+		color: white;
+	}
+	
+	.fa-instagram {
+  background: #DD2A7B;
+  color: white;
+	}
+		.fa-youtube {
+  background: #FF0000;
+  color: white;
+	}
+body,td,th {
+    font-family: lato, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+}
+	@media screen and (max-width : 750px ){
+  .sidebar {
+    padding-top: 15px;
+  }
+  .sidebar a {
+    font-size: 18px;
+  }
+	#content{padding-bottom: 200px}
+	#cpp-logo{height:30px}
+	#footer{height:160px}
+	main{font-size:10px}
+	h2 {font-size:28px}
+	h3 {font-size:22px}
+	h4 {font-size:16px}
+	
+	}
+</style>
+<!--The following script tag downloads a font from the Adobe Edge Web Fonts server for use within the web page. We recommend that you do not modify it.-->
+<script>var __adobewebfontsappname__="dreamweaver"</script>
+<script src="http://use.edgefonts.net/montserrat:n4:default;expletus-sans:n4:default;numans:n4:default;lato:n4:default;didact-gothic:n4:default.js" type="text/javascript"></script>
+
+</head>
+
+<body>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+
+<div id="mySidebar" class="sidebar" onmouseover="toggleSidebar()" onmouseout="toggleSidebar()">
+	 
+		<a href="index.html"><span><i class="material-icons">home</i>Home</span></a><br>
+	  
+	  <a href="subjects.html"><i class="material-icons">school</i><span class="icon-text">Subjects</span></a><br>
+  
+	  <a href="extracurriculars.html"><i class="material-icons">sports_football</i><span class="icon-text">Extracurriculars</span></a><br>
+  
+	 <div id="current-page"><i class="material-icons">people</i><span class="icon-text">Administration</span></div><br>
+	
+	 <a href="faq.html"><i class="material-icons">contact_support</i><span class="icon-text">FAQ</span></a>
+</div>
+
+	<div id="banner">Administration</div>
+
+		
+		<div id="main">
+		<div id="content">
+		
+<h2>Contact Information</h2>
+	<div id="columns">
+	<h3 style="margin-top: 0">Athletics</h3>
+	<p>
+  	Damian Saks, Director <br>
+	<a href="mailto:dsaks@cppmail.com">dsaks@cppmail.com</a><br>
+	<a href="tel:+6079363704">(607) 936-3704</a> ext. 2744</p>
+		
+	<h3>Business Services</h3>
+	<p>
+	Paul Webster, School Business Official<br>
+	<a href="mailto:pwebster@cppmail.com">pwebster@cppmail.com</a>
+	<br>
+	<a href="tel:+6079363704">(607) 936-3704 ext. 1036</a>
+	</p>
+	
+	<h3>Communications</h3>
+	<p>
+	Bill Cameron, Public Information Coordinator<br>
+	<a href="mailto:bcameron@cppmail.com">bcameron@cppmail.com</a>
+	<br>
+	<a href="tel:+6076542721">(607) 654-2721</a>
+	</p>	
+	
+	<h3>Curriculum and Instruction</h3>
+	<p>
+	Kerry Elsasser, Assistant Superintendent of Elementary Education<br>
+	<a href="mailto:kelsasser@cppmail.com">kelsasser@cppmail.com</a>
+	<br>
+	<a href="tel:+6079363704">(607) 936-3704 ext. 1004</a>
+	</p>
+	<p>
+	Linda Perry, Assistant Superintendent of Secondary Education<br>
+	<a href="mailto:lperry@cppmail.com">lperry@cppmail.com</a>
+	<br>
+	<a href="tel:+6079363704">(607) 936-3704 ext. 1004</a>
+	</p>
+	<p>
+	Tammy Townsend, Administrative Assistant	
+	</p>
+	
+	<h3>Food Services</h3>
+	<p>
+	Joseph Kilmer, Director<br>
+	<a href="mailto:jkilmer@gstboces.org">jkilmer@gstboces.org</a>
+	<br>
+	<a href="tel:+6079363704">(607) 936-3704 ext. 1053</a>
+	</p>
+	
+	<h3>Health Services</h3>
+	<p>
+	Becky Henderson
+	Supervisor of Special Education<br>
+	<a href="mailto:bhenderson@cppmail.com">bhenderson@cppmail.com</a>
+	<br>
+	<a href="tel:+6079363704">(607) 936-3704 ext. 1006</a>
+	</p>
+	<p>
+	Anne Stefanini, BSN/RN
+	Head Nurse<br>
+	<a href="mailto:astefanini@cppmail.com">astefanini@cppmail.com</a>
+	<br>
+	<a href="tel:+6076542702">(607) 654-2702</a><br>
+	Fax: <a href="tel:+607 654-2729">(607) 654-2729</a>
+	</p>
+		
+	<h3>Personnel</h3>
+	<p>
+	Jeffrey Delorme, Assistant Superintendent for Administrative Services<br>
+	<a href="mailto:jdelorme@cppmail.com">jdelorme@cppmail.com</a>
+	<br>
+	<a href="tel:+6079363704">(607) 936-3704 ext. 1023</a>
+	</p>
+	
+	<h3>Pupil Personnel Services</h3>
+	<p>
+	Jennifer Batzing, Director<br>
+	<a href="mailto:jbatzing@cppmail.com">jbatzing@cppmail.com</a>
+	<br>
+	<a href="tel:+6079363704">(607) 936-3704 ext. 1017</a>
+		</p>
+		
+	<h3>School Operations</h3>
+	<p>
+	William Pierce,
+	Assistant Superintendent for School Operations<br>
+	<a href="tel:+6076542706">(607) 654-2706</a>
+	</p>
+	
+	<h3>Superintendent</h3>
+	<p>
+	Michelle Caulfield<br>
+	<a href="mailto:mcaulfield@cppmail.com">mcaulfield@cppmail.com</a>
+	<br>
+	<a href="tel:+6079363704">(607) 936-3704 ext. 1001</a>
+	</p>
+	
+	<h3>Technology</h3>
+	<p>
+	Jerry Dieg, Network Technology Specialist<br>
+	<a href="mailto:jdieg@cppmail.com">jdieg@cppmail.com</a>
+	<br>
+	<a href="tel:+6076542740">(607) 654-2740</a>
+	</p>
+		
+	<h3>Transportation</h3>
+	<p>
+	Larry Eccleston, Director<br>
+	<a href="mailto:leccleston@cppmail.com">leccleston@cppmail.com</a>
+	<br>
+	<a href="tel:6079622493">(607) 962-2493</a>
+	</p>
+  </div>
+		</div>	
+			<div id="footer">
+	
+		
+		<span style="font-size:12px">Corning Painted Post High School |  201 Cantigney St, Corning, NY 14830</span><br>
+		<img id ="cpp-logo" src ="https://www.corningareaschools.com/images/gallery/_full_/docs/district/cpp_logo_4colorcpptextdev.jpg?id=1284&thumbwidth=100&fullwidth=600" alt ="CPP logo"><a href="https://www.facebook.com/corninghawks" target="_blank" class="fa fa-facebook"></a><a href="https://twitter.com/corninghawks" target="_blank" class="fa fa-twitter"></a><a href="https://instagram.com/cppschools" target="_blank" class="fa fa-instagram"></a><a href="https://youtube.com/cppschools" target="_blank" class="fa fa-youtube"></a>
+	
+	
+	
+
+	
+	
+			</div>
+	
+	
+	
+</body>
+<script>
+var mini = true;
+
+function toggleSidebar() {
+  if (mini) {
+    console.log("opening sidebar");
+    document.getElementById("mySidebar").style.width = "300px";
+    document.getElementById("main").style.marginLeft = "300px";
+	document.getElementById("banner").style.marginLeft = "300px";
+	
+    this.mini = false;
+  } else {
+    console.log("closing sidebar");
+    document.getElementById("mySidebar").style.width = "85px";
+    document.getElementById("main").style.marginLeft = "85px";
+	document.getElementById("banner").style.marginLeft = "85px";
+	
+    this.mini = true;
+  }
+}
+
+</script>
+</html>
